@@ -5,7 +5,7 @@ This program will take a text as input and generate slug as a output.
 - PHP
 - Javascript
 
-## For design I used:
+## For designing I used:
 - Bootstrap
 - HTML
 - CSS
