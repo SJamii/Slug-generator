@@ -62,21 +62,17 @@
 
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $text = null;
-                    $underscore = null;
-                    $dash = null;
                     $number = null;
                     $divider = '-';
                     if (isset($_POST['input-text'])) {
                         $text = $_POST['input-text'];
                     }
 
-                    if (isset($_POST['underscore'])) {
-                        $underscore = $_POST['underscore'];
+                    if (isset($_POST['underscore']))
                         $divider = '_';
                     }
 
                     if (isset($_POST['dash'])) {
-                        $dash = $_POST['dash'];
                         $divider = '-';
                     }
 
